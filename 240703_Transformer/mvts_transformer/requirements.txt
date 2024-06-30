@@ -1,0 +1,12 @@
+ipdb
+tqdm
+xlrd
+pandas
+xlutils
+tabulate
+xlwt
+torch==1.11.0
+tensorboard
+matplotlib
+numpy==1.21.6
+scikit_learn
