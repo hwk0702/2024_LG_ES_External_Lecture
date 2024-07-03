@@ -174,7 +174,7 @@ def plot_prec_vs_rec(score_grid, rec, prec, prec_requirement=None, thr_opt=None,
         plt.show(block=False)
 
 
-def plot_confusion_matrix(ConfMat, label_strings=None, title='Confusion matrix', cmap=plt.cm.get_cmap('Blues')):
+def plot_confusion_matrix(ConfMat, label_strings=None, title='Confusion matrix', cmap=plt.get_cmap('Blues')):
     """Plot confusion matrix in a separate window"""
     plt.imshow(ConfMat, interpolation='nearest', cmap=cmap)
     plt.title(title)
