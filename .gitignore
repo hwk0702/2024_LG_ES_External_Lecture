@@ -161,3 +161,5 @@ cython_debug/
 
 240702_Deep_Auto_Encoder/data
 240703_Transformer/data
+240709_DL4TS/data
+240709_DL4TS/ts2vec
